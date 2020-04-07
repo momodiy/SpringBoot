@@ -11,5 +11,5 @@ spring:
     password: 123456
 
 mybatis:
-  mapperLocations: classpath:mapper/*.xml
+  mapperLocations: classpath:mapper/*.xml  # xml文件扫描路径配置
   type-aliases-package: com.atguigu.springcloud.entities    # 所有Entity别名类所在包
